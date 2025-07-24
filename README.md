@@ -1,4 +1,4 @@
-# Cptharris Fontaine
+# Fontaine
 
 ## How do I install these formulae?
 
