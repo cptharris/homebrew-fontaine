@@ -29,6 +29,7 @@ jobs:
           else
             echo "Update needed"
             echo "update_needed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Download zip and calculate sha256
         if: steps.check.outputs.update_needed == 'true'
